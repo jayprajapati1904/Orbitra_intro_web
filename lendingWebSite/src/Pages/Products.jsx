@@ -13,7 +13,7 @@ export default function Products() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-200 relative mt-20 md:mt-0">
+    <div className="min-h-screen bg-gray-200 relative mt-10 md:mt-0">
       {/* Subtle animated glows */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/3 -left-20 w-72 h-72 bg-purple-600/20 rounded-full blur-3xl animate-pulse"></div>
