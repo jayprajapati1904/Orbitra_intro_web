@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Add this at the bottom of your index.css */
+
+.page-background {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    z-index: -1;
+    /* Keep it behind everything */
+}
+
+.page-background::before,
+.page-background::after {
+    content: "";
+    position: absolute;
+    border-radius: 9999px;
+    /* full round */
+    filter: blur(64px);
+    animation: pulse 4s infinite ease-in-out;
+}
+
+.page-background::before {
+    top: 30%;
+    left: -5rem;
+    width: 18rem;
+    height: 18rem;
+    background-color: rgba(147, 51, 234, 0.2);
+    /* purple-600/20 */
+}
+
+.page-background::after {
+    bottom: 25%;
+    right: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: rgba(37, 99, 235, 0.2);
+    /* blue-600/20 */
+    animation-delay: 2s;
+}
+
+/* Simple pulse animation */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
+}
