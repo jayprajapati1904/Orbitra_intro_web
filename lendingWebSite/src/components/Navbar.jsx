@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 group">
           <img
-            src="https://res.cloudinary.com/dltauawkh/image/upload/v1756402970/Orbitra_hbw9pf.png"
+            src="/Orbitra.png"
             alt="Orbitra Logo"
             className="h-8 md:h-10 w-auto object-contain"
             draggable={false}
