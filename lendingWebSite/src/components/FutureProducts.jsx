@@ -13,7 +13,7 @@ const futureProducts = [
       "Perfect for bloggers, journalists, and content creators who thrive on speed",
     ],
     image:
-      "https://res.cloudinary.com/dltauawkh/image/upload/v1756483676/product1_eedu9c.png",
+      "https://res.cloudinary.com/dltauawkh/image/upload/f_auto,q_auto/v1756483676/product1_eedu9c.png",
     color: "from-orange-500 to-red-500",
     bgColor: "from-orange-50 to-red-50",
     iconBg: "bg-orange-100",
@@ -31,7 +31,7 @@ const futureProducts = [
       "Eliminate the hassle of manual calculations and outdated record-keeping",
     ],
     image:
-      "https://res.cloudinary.com/dltauawkh/image/upload/v1756483673/product2_rvgdmi.png",
+      "https://res.cloudinary.com/dltauawkh/image/upload/f_auto,q_auto/v1756483673/product2_rvgdmi.png",
     color: "from-blue-500 to-cyan-500",
     bgColor: "from-blue-50 to-cyan-50",
     iconBg: "bg-blue-100",
@@ -49,7 +49,7 @@ const futureProducts = [
       "Accelerate your journey of becoming a successful creator",
     ],
     image:
-      "https://res.cloudinary.com/dltauawkh/image/upload/v1756483674/product3_usxkrw.png",
+      "https://res.cloudinary.com/dltauawkh/image/upload/f_auto,q_auto/v1756483674/product3_usxkrw.png",
     color: "from-purple-500 to-pink-500",
     bgColor: "from-purple-50 to-pink-50",
     iconBg: "bg-purple-100",
