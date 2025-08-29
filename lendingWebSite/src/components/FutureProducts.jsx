@@ -42,7 +42,7 @@ const futureProducts = [
     subtitle: "Learn from Expert Creators",
     description: `A platform designed to bridge the gap between learners and experienced creators. Our goal is to help aspiring content creators grow faster by learning directly from experts.`,
     highlights: [
-      "Connect with creators who have 5+ years of experience in content creation",
+      "Connect with creators who have experience in content creation",
       "Learn real-world struggles, mistakes, and solutions faced during their journey",
       "Avoid common mistakes and save years of trial and error",
       "Get practical guidance on what to do, what to avoid, and how to grow quickly",
@@ -174,13 +174,13 @@ export default function FutureProducts() {
                     </div>
 
                     {/* CTA Button */}
-                    <div className="pt-4">
+                    {/* / <div className="pt-4">
                       <button
                         className={`px-8 py-3 bg-gradient-to-r ${product.color} text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200`}
                       >
                         Get Notified When Ready
                       </button>
-                    </div>
+                    </div> */}
                   </div>
 
                   {/* Image Section */}

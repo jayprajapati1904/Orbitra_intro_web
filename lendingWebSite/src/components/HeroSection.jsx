@@ -13,7 +13,8 @@ export default function HeroSection() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://res.cloudinary.com/dltauawkh/video/upload/v1756402986/video1_ye1gpb.mp4"
+          src="/video1.mp4"
+          // "https://res.cloudinary.com/dltauawkh/video/upload/v1756402986/video1_ye1gpb.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
