@@ -26,11 +26,11 @@ export default function HeroSection() {
       <div className="relative z-10 flex flex-col items-start justify-center h-full w-full pl-6 ">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white drop-shadow-xl leading-tight">
           The Future is Orbitra{" "}
-          <RocketOutlined className="ml-2 text-pink-400 animate-bounce drop-shadow-lg text-2xl sm:text-3xl" />
+          {/* <RocketOutlined className="ml-2 text-pink-400 animate-bounce drop-shadow-lg text-2xl sm:text-3xl" /> */}
         </h1>
 
         <p className="mt-6 text-gray-200 text-base font-semibold sm:text-lg md:text-xl leading-relaxed max-w-2xl">
-          🚀 We’re redefining how people work & create —
+          We’re redefining how people work & create —
           <br className="hidden sm:block" />
           with powerful, smart, and interactive experiences.
         </p>
