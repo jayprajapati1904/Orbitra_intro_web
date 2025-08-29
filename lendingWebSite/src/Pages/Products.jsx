@@ -63,7 +63,7 @@ export default function Products() {
               href="mailto:hello@yourcompany.com"
               className="text-purple-400 hover:text-purple-300"
             >
-              hello@yourcompany.com
+              techorbitra@gmail.com
             </a>
           </p>
         </div>
