@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 pt-16 pb-10">
@@ -23,9 +25,21 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Explore</h3>
             <ul className="space-y-2 text-sm">
-              <li>About Us</li>
-              <li>Products</li>
-              <li>Contect us</li>
+              <li>
+                <Link to="/about" className="hover:text-white">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="hover:text-white">
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="hover:text-white">
+                  Contact Us
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -46,16 +60,6 @@ export default function Footer() {
             Subscribe to our updates and be the first to know about new
             features.
           </p>
-          {/* <div className="flex items-center bg-gray-800 rounded-full overflow-hidden">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full px-4 py-2 bg-transparent text-sm text-gray-200 outline-none"
-            />
-            <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-sm font-medium text-white">
-              Subscribe
-            </button>
-          </div> */}
         </div>
       </div>
 
