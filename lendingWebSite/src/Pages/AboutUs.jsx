@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function AboutUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="min-h-screen py-20 mt-10">
       {/* Background decorative elements */}

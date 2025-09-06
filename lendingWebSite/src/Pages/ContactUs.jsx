@@ -1,10 +1,14 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import emailjs from "emailjs-com";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function ContactUs() {
   const formRef = useRef();
   const [status, setStatus] = useState("");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,7 +20,7 @@ export default function ContactUs() {
         formRef.current,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY // ✅ From .env
       )
-      
+
       .then(
         () => {
           setStatus("✅ Message sent successfully!");

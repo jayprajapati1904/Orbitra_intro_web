@@ -26,7 +26,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Explore</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="hover:text-white">
+                <Link to="/aboutus" className="hover:text-white">
                   About Us
                 </Link>
               </li>
@@ -36,7 +36,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-white">
+                <Link to="/Contactus" className="hover:text-white">
                   Contact Us
                 </Link>
               </li>
